@@ -10,13 +10,27 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            HStack {
+                Text("To Do List")
+                    .font(.largeTitle)
+                    .fontWeight(.medium)
+            Spacer()
+                Button(action: {
+                    
+                }){
+                    Text("+")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color.purple)
+                
+                }
+            }
+            .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            Spacer()
         }
-        .padding()
+
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
