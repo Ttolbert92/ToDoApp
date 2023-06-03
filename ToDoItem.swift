@@ -7,9 +7,14 @@
 
 import Foundation
 
-class ToDoItem {
-    var title: String
-    var isImportant: Bool
+class ToDoItem: ObservableObject, Identifiable {
+
+    var id = UUID()
+   
+    @Published var title = ""
+    @Published var isImportant = false
+    @Published var isComplete = false
+    
     
     init(title: String, isImportant: Bool = false) {
             self.title = title
