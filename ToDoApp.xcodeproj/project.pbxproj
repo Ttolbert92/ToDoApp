@@ -12,6 +12,7 @@
 		0721F67A2A25980D0069100F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0721F6792A25980D0069100F /* Preview Assets.xcassets */; };
 		0721F6812A2599F40069100F /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0721F6802A2599F40069100F /* ToDoItem.swift */; };
 		0721F6832A25A8F40069100F /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0721F6822A25A8F40069100F /* NewToDoView.swift */; };
+		0766476C2A2C16C3006F2DA5 /* ToDoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0766476B2A2C16C3006F2DA5 /* ToDoAppApp.swift */; };
 		07D45F272A2C05D0001847E5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D45F262A2C05D0001847E5 /* Persistence.swift */; };
 		07D45F2A2A2C06C8001847E5 /* ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07D45F282A2C06C8001847E5 /* ToDoApp.xcdatamodeld */; };
 /* End PBXBuildFile section */
@@ -23,6 +24,7 @@
 		0721F6792A25980D0069100F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0721F6802A2599F40069100F /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		0721F6822A25A8F40069100F /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		0766476B2A2C16C3006F2DA5 /* ToDoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppApp.swift; sourceTree = "<group>"; };
 		07D45F262A2C05D0001847E5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		07D45F292A2C06C8001847E5 /* ToDoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoApp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,6 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				0721F6802A2599F40069100F /* ToDoItem.swift */,
+				0766476B2A2C16C3006F2DA5 /* ToDoAppApp.swift */,
 				0721F6712A2598080069100F /* ToDoApp */,
 				0721F6702A2598080069100F /* Products */,
 			);
@@ -151,6 +154,7 @@
 				07D45F272A2C05D0001847E5 /* Persistence.swift in Sources */,
 				0721F6812A2599F40069100F /* ToDoItem.swift in Sources */,
 				0721F6832A25A8F40069100F /* NewToDoView.swift in Sources */,
+				0766476C2A2C16C3006F2DA5 /* ToDoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
